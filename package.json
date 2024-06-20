@@ -1,0 +1,26 @@
+{
+  "name": "vritta-news-blog-server",
+  "version": "1.0.0",
+  "description": "a server for news blog",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riteessshh/vritta-news-blog-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riteessshh/vritta-news-blog-server/issues"
+  },
+  "homepage": "https://github.com/riteessshh/vritta-news-blog-server#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "nodemon": "^3.1.3"
+  }
+}

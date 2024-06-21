@@ -26,3 +26,14 @@ export async function handleCategoryArticles(req, res) {
     console.error("Error fetching items by category:", error);
   }
 }
+
+export async function handleUniqueArticle(req, res) {
+  const artId = req.params.id;
+  try {
+    const result = await categoryNews.findById(artId);
+    console.log("Article has been found.");
+    return res.send(result);
+  } catch (error) {
+    console.error(`There is an error: ${error}`);
+  }
+}

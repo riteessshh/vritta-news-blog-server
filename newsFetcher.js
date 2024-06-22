@@ -14,8 +14,8 @@ const headers = {
 };
 
 const params = {
-  category: "health",
-  country: "in",
+  category: "technology",
+  country: "us",
 };
 
 axios

@@ -2,6 +2,12 @@
 
 This is a React application for a news blog, built using the MERN stack (MongoDB, Express, React, Node.js) and utilizes the News API to fetch and display news articles.
 
+# Both frontend and server are deployed on Render.
+
+## Live webapp link is here - https://vritta-news-blog-webapp.onrender.com/
+
+## Live server link is here - https://vritta-news-blog-server.onrender.com/
+
 ## This is Backend Part whereas the Frontend is on other repository (https://github.com/riteessshh/vritta-news-blog-webapp)
 
 ### Features
@@ -15,7 +21,7 @@ This is a React application for a news blog, built using the MERN stack (MongoDB
 
 - Frontend: React
 - Backend: Node.js, Express
-- Database: MongoDB (if user authentication or storing preferences is needed)
+- Database: MongoDB
 - API: News API ([https://newsapi.org/](https://newsapi.org/))
 
 ### Getting Started

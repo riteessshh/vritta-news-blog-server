@@ -28,52 +28,38 @@ This is a React application for a news blog, built using the MERN stack (MongoDB
 
 **Steps:**
 
-1.  Clone this repository:
+1. Clone this repository:
 
-    ```bash
-    git clone https://github.com/riteessshh/vritta-news-blog-server.git
-    ```
+   ```bash
+   git clone https://github.com/riteessshh/vritta-news-blog-server.git
+   ```
 
-2.  Install dependencies:
+2. Install dependencies:
 
-    ```bash
-    cd vritta-news-blog-server
-    npm install
-    ```
+   ```bash
+   cd vritta-news-blog-server
+   npm install
+   ```
 
-    (or)
+   (or)
 
-    ```bash
-    yarn install
-    ```
+   ```bash
+   yarn install
+   ```
 
-3.  Configure your backend (if using MongoDB):
+3. Start the development server:
 
-    Update the connection string in connection.js to point to your local MongoDB instance.
+   ```bash
+   npm start
+   ```
 
-4.  Configure your News API key:
+   (or)
 
-    Create a .env file in the root directory of your project.
+   ```bash
+   yarn start
+   ```
 
-    Add the following line to your .env file, replacing YOUR_NEWS_API_KEY with your actual key:
-
-    ```NEWSAPI_KEY=YOUR_NEWS_API_KEY
-
-    ```
-
-5.  Start the development server:
-
-        ```Bash
-        npm start
-        ```
-
-    (or)
-
-        ```Bash
-        yarn start
-        ```
-
-This will start the server on port `3000` by default. Open http://localhost:3000 in your browser to view the application.
+   This will start the server on port `3000` by default. Open http://localhost:3000 in your browser to view the application.
 
 ### Running in Production
 

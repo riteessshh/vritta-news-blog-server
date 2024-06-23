@@ -37,7 +37,7 @@ This is a React application for a news blog, built using the MERN stack (MongoDB
 2.  Install dependencies:
 
     ```bash
-    cd news-blog-app
+    cd vritta-news-blog-server
     npm install
     ```
 
@@ -49,7 +49,7 @@ This is a React application for a news blog, built using the MERN stack (MongoDB
 
 3.  Configure your backend (if using MongoDB):
 
-    Update the connection string in server/config/db.js to point to your local MongoDB instance.
+    Update the connection string in connection.js to point to your local MongoDB instance.
 
 4.  Configure your News API key:
 
@@ -57,7 +57,7 @@ This is a React application for a news blog, built using the MERN stack (MongoDB
 
     Add the following line to your .env file, replacing YOUR_NEWS_API_KEY with your actual key:
 
-    ```NEWS_API_KEY=YOUR_NEWS_API_KEY
+    ```NEWSAPI_KEY=YOUR_NEWS_API_KEY
 
     ```
 

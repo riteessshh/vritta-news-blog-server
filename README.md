@@ -1,4 +1,4 @@
-## Vritta News Blog App - React & MERN Stack (Server)
+## News Blog App - React & MERN Stack (Server)
 
 This is a React application for a news blog, built using the MERN stack (MongoDB, Express, React, Node.js) and utilizes the News API to fetch and display news articles.
 
@@ -8,7 +8,7 @@ This is a React application for a news blog, built using the MERN stack (MongoDB
 
 - Displays a list of latest news articles with title, description, source, and published date.
 - Ability to click on an article to be redirected to the source website.
-- Functionality to filter news articles by category (requires additional implementation).
+- Functionality to filter news articles by category.
 - (coming soon) Functionality to search for news articles by keyword (requires additional implementation).
 
 ### Technologies Used
@@ -31,7 +31,7 @@ This is a React application for a news blog, built using the MERN stack (MongoDB
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/riteessshh/vritta-news-blog-server.git
+   git clone https://your-github-repo-url.git
    ```
 
 2. Install dependencies:
@@ -47,7 +47,20 @@ This is a React application for a news blog, built using the MERN stack (MongoDB
    yarn install
    ```
 
-3. Start the development server:
+3. Configure your backend (if using MongoDB):
+
+   - Update the connection string in `connection.js` to point to your local MongoDB instance.
+
+4. Configure your News API key:
+
+   - Create a `.env` file in the root directory of your project.
+   - Add the following line to your `.env` file, replacing `YOUR_NEWS_API_KEY` with your actual key:
+
+     ```
+     NEWSAPI_KEY=YOUR_NEWS_API_KEY
+     ```
+
+5. Start the development server:
 
    ```bash
    npm start

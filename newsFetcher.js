@@ -14,8 +14,9 @@ const headers = {
 };
 
 const params = {
-  category: "technology",
-  country: "us",
+  category: "politics",
+  country: "in",
+  language: "en",
 };
 
 axios
@@ -44,4 +45,3 @@ axios
   .catch((error) => {
     console.error("Error fetching data:", error);
   });
-console.log("Data transfer Ends!");

@@ -14,8 +14,8 @@ const headers = {
 };
 
 const params = {
-  category: "politics",
-  country: "in",
+  category: "general",
+  pageSize: 40,
   language: "en",
 };
 
